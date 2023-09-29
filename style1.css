@@ -1,0 +1,84 @@
+body{
+	font-family: sans-serif;
+	background: #2b2b2b;
+}
+
+.tulisan_login{
+	text-align: center;
+    color: white;
+	/*membuat semua huruf menjadi kapital*/
+	/*text-transform: uppercase;*/
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: rgb(0, 0, 0);
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+    border-radius: 10px;
+}
+.kotak_login img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+    margin-top: 50px;
+
+}
+label{
+	font-size: 11pt;
+    color: white;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+    border-radius: 10px;
+    background: #151515;
+    border-color: lightsteelblue;
+	color: #ffffff;
+}
+ 
+.tombol_login{
+	background: #259751;
+	color: white;
+	font-size: 11pt;
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 10pt;
+    text-decoration: underline;
+}
+.eye-area{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.eye-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+i{
+    position: absolute;
+    color: #444444;
+    cursor: pointer;
+}
+#eye,#eye-2{
+    opacity: 1;
+}
+#eye-slash,#eye-slash-2{
+    opacity: 0;
+}
